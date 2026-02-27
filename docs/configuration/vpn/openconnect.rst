@@ -259,7 +259,7 @@ users.
   sudo mkdir -p /config/auth/ocserv/config-per-user
   sudo touch /config/auth/ocserv/default-user.conf
 
-  set vpn set vpn openconnect authentication identity-based-config mode user
+  set vpn openconnect authentication identity-based-config mode user
   set vpn openconnect authentication identity-based-config directory /config/auth/ocserv/config-per-user
   set vpn openconnect authentication identity-based-config default-config /config/auth/ocserv/default-user.conf
 
